@@ -4,7 +4,14 @@ class MyThread1 extends Thread
     public void run()
     {
 
-        System.out.println("Task is performed");
+        for (int i = 0; i <100 ; i++)
+        {
+
+            System.out.println("my thread task performed");
+
+        }
+
+
     }
 
 
@@ -22,6 +29,12 @@ public class MultiThreading1
     {
         MyThread1 t1 = new MyThread1();
         t1.start();
+
+        for (int i = 0; i < 100; i++)
+        {
+            System.out.println("Main thread task performed");
+
+        }
 
 
     }

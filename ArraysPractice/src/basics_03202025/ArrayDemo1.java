@@ -25,7 +25,18 @@ public class ArrayDemo1
 
 
         String[] students = new String[5];
+        students[0]="Aashish";
+        students[1]="Avinash";
+        students[2]="Ayush";
+        students[3]="Abhishek";
+        students[4]="Aryan";
         System.out.println(students.length);
+
+        for (String student : students)
+        {
+            System.out.println(student);
+        }
+
 
 
 
