@@ -12,7 +12,8 @@ public class ArrayDemo2
         int[] arr2 = {1,2,3,4,5};
         System.out.println(arr2);
 
-        System.out.println(arr1==arr2);
+        System.out.println(arr1.equals(arr2));
+
 
 
     }
