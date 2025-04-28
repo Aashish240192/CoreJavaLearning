@@ -1,21 +1,29 @@
 
+import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class MainApp5
+public class MainApp6
 {
-    public static void main(String[] args)
+    public static void main(String[] args) throws InterruptedException
     {
 
-        Set<Integer> set = new TreeSet<>();
-        set.add(40);
-        set.add(10);
-        set.add(20);
-        set.add(50);
-        set.add(30);
-        set.add(60);
-        set.add(80);
-        set.add(70);
+        Set<String> set = new TreeSet<>();
+        set.add("EEE");
+        set.add("GGG");
+        set.add("BBB");
+        set.add("DDD");
+        set.add("CCC");
+        set.add("AAA");
+        set.add("FFF");
+        set.add("HHH");
+
+        Iterator itr = set.iterator();
+        while (itr.hasNext())
+        {
+            System.out.println(itr.next());
+            Thread.sleep(1000);
+        }
 
 
 
