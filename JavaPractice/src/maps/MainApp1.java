@@ -16,6 +16,8 @@ public class MainApp1
         map.put(104,"Balram");
         map.put(105,"Klaus");
 
+
+
         for (Map.Entry entry : map.entrySet())
         {
             System.out.println(entry.getKey()+ " " + entry.getValue());
@@ -24,6 +26,7 @@ public class MainApp1
 
 
         System.out.println(map);
+
 
         System.out.println(map.size());
 
